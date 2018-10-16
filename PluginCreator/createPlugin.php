@@ -19,7 +19,7 @@ $technicalName = $symfonyStyle->ask('Techical Plugin Name', $technicalName);
 $containerName = str_replace('-', '_', $technicalName);
 $composerName = str_replace('ost-', 'ost/', $technicalName);
 
-$namespaceName = 'Ost' . str_replace(' ', '', $fullPluginName);
+$namespaceName = 'Ost' . str_replace(' ', '', ucwords($fullPluginName));
 $namespaceName = $symfonyStyle->ask('Namespace name', $namespaceName);
 
 $authorName = $symfonyStyle->ask('Author Name');
