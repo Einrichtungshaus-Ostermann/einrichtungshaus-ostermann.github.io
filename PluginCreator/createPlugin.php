@@ -40,7 +40,7 @@ $fields = [
 ];
 
 
-recurse_copy('template', $technicalName);
+recurse_copy('template', $namespaceName);
 
 
 function replaceTemplate(string $template): string
