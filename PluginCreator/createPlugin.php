@@ -37,6 +37,7 @@ $fields = [
     'NAMESPACE_NAME' => $namespaceName,
     'AUTHOR' => $author,
     'PLUGIN_DESCRIPTION' => $description,
+    'YEAR' => (new DateTime())->format('Y')
 ];
 
 

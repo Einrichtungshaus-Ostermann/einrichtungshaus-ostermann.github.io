@@ -6,7 +6,7 @@
  * @package   NAMESPACE_NAME
  *
  * @author    AUTHOR
- * @copyright 2018 Einrichtungshaus Ostermann GmbH & Co. KG
+ * @copyright YEAR Einrichtungshaus Ostermann GmbH & Co. KG
  * @license   proprietary
  */
 
